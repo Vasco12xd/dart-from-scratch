@@ -18,7 +18,7 @@ var person = Person(
     birthday: dateConverted,
     age: DateTime.now().year - dateConverted.year,
   );
-
+  
   print("Tu nombre: ${person.name}");
   print("Tu fecha de nacimiento: ${person.birthday}");
   print("Tu edad es ${person.age} años");
